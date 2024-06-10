@@ -22,7 +22,7 @@ const imgDefault = "./default_image.png";
 
 //Realiza a conexão com a API retornando o Json
 async function buscaFilme(nomeBusca) {
-     const resposta = await fetch(`http://www.omdbapi.com/?t=${nomeBusca}&apikey=${apiKey}`);
+     const resposta = await fetch(`https://www.omdbapi.com/?t=${nomeBusca}&apikey=${apiKey}`);
      return resposta.json();
 }
 
