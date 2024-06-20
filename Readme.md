@@ -1,25 +1,22 @@
-# Personal Portfolio 🔥
+# Portfólio Pessoal
 > https://antonioqneto.github.io/
 
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/antonioqneto/antonioqneto.github.io/commits/master)
 [![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://antonioqneto.github.io/)
 [![Me Pergunte !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/antonioqneto/)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-### Website Preview
-#### Home Page
+### Preview do Website
+#### Página Inicial
 <img src="website_images/HomePage.png" width="900">
 
 
-#### About Page
+#### Página Sobre
 <img src="website_images/AboutPage.png" width="900">
 
 
-#### Projects Page
+#### Página de Projetos
 <img src="website_images/ProjectPage.png" width="900">
   
-
-
 :star: Star me on GitHub — it helps!
 
 ## Sobre
@@ -50,7 +47,7 @@ Portfolio Pessoal baseado em https://github.com/rajaprerak/rajaprerak.github.io
 ✔️ Informações de Contato
 
 ## Ferramentas utilizadas 🛠️
-* <b>GitHub Pages</b> - To host my static website (HTML, CSS, JS).
+* <b>GitHub Pages</b> - Para servir minha página estática (HTML, CSS, JS).
 
 ## Contribuindo 💡
 
