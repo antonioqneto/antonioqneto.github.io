@@ -36,11 +36,14 @@ botaoBuscar.addEventListener("click", () => {
 //Função para definir e validar os dados do filme
 async function core() {
      try {
+          mensagemErro.textContent = "";
+
           const filme = await buscaFilme(nomeBusca.value);
           validaDados(filme);
           defineValores(filme);
      } catch (erro) {
           console.log(erro);
+          poster.setAttribute("src", "./img/default_image.png");
           mensagemErro.textContent = `${erro}`;
      }
 }
