@@ -55,7 +55,6 @@ function defineValores(filme) {
      atores.textContent = `Actors: ${filme.Actors}`;
      diretor.textContent = `Director: ${filme.Director}`;
      poster.setAttribute("src", filme.Poster);
-
 }
 
 //Função para limpar campos quando o botão buscar é pressionado
