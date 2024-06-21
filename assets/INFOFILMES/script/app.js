@@ -5,7 +5,6 @@ EDMILSON
 JONAS
 */
 
-
 const nomeBusca = document.querySelector(".input");
 const mensagemErro = document.querySelector("#mensagemErro");
 const botaoBuscar = document.querySelector("#botao_buscar");
@@ -26,15 +25,13 @@ async function buscaFilme(nomeBusca) {
      return resposta.json();
 }
 
-
 botaoBuscar.addEventListener("click", () => {
      limparCampos();
-     core();
+     GetFilme();
 })
 
-
 //Função para definir e validar os dados do filme
-async function core() {
+async function GetFilme() {
      try {
           mensagemErro.textContent = "";
 
@@ -71,9 +68,7 @@ function limparCampos() {
      atores.textContent = "";
      diretor.textContent = "";
      poster.setAttribute("src", imgDefault);
-
 }
-
 
 //Função de validação dos dados do filme
 function validaDados(filme) {
