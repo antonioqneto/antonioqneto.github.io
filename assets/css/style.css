@@ -769,6 +769,7 @@ section .container {
   overflow: hidden;
   z-index: 1;
   background: rgba(255, 255, 255, 1);
+  max-height: 158px ;
 }
 
 .portfolio .portfolio-wrap::before {
