@@ -26,6 +26,10 @@ a {
   color: #12d640;
 }
 
+h5, a {
+  color: #fff;
+}
+
 a:hover {
   color: #12d640;
   text-decoration: none;
@@ -168,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
   visibility: visible;
-  width: 25px;
+  width: 100%;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -331,7 +335,7 @@ section .container {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
